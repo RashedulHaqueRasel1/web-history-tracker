@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h3>History Tracker</h3>
+    <button id="clearAll" class="btn-clear">Clear All</button>
+  </div>
+  
+  <ul id="list"></ul>
+
+  <div id="emptyState" class="empty-state" style="display: none;">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="12" r="10"></circle>
+      <line x1="12" y1="8" x2="12" y2="12"></line>
+      <line x1="12" y1="16" x2="12.01" y2="16"></line>
+    </svg>
+    <p>No history found</p>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
